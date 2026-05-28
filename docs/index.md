@@ -1,6 +1,7 @@
 ---
 title: Pixel Server
 description: Replacing the cloud, one old phone at a time
+og_url: https://pixel-server.itsmichael.info
 og_image: https://pixel-server.itsmichael.info/public/pixel-server.png
 ---
 
