@@ -106,7 +106,7 @@ Once you have a domain set up with Cloudflare, we can create the tunnel. SSH to 
    credentials-file: /root/.cloudflared/<Tunnel-UUID>.json
    ```
 5. Configure tunnel DNS routing: `cloudflared tunnel route dns <UUID or NAME> <hostname>`
-6. Start the tunnel: `cloudflared tunnel run <UUID or NAME>
+6. Start the tunnel: `cloudflared tunnel run <UUID or NAME>`
 
 With the both the tunnel and the app from Step 4 running, you should be able to test your page at `https://<hostname>`!
 
