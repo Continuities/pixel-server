@@ -1,0 +1,27 @@
+{
+  "name": "pixel-server",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Continuities/pixel-server#readme",
+  "bugs": {
+    "url": "https://github.com/Continuities/pixel-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Continuities/pixel-server.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.ts"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.1"
+  }
+}
