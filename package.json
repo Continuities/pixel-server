@@ -18,7 +18,8 @@
     "start": "node index.ts"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "express-md": "^2.1.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",

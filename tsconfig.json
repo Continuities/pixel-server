@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "express-md": ["./types/express-md.d.ts"]
+    }
+  }
+}
