@@ -7,7 +7,9 @@ og_image: https://pixel-server.itsmichael.info/public/pixel-server.png
 
 # Pixel Server
 
-<img style="height:25vh" alt="The machine serving you right now!" src="public/the-server.jpg" />
+<div style="font-size:3rem; font-weight:bold; display: flex;align-items:center; gap:2rem; letter-spacing: 0.2rem;">
+<img style="height:25vh" alt="The machine serving you right now!" src="public/the-server.jpg" /> < hi
+</div>
 
 The touchscreen died on my old Pixel smartphone. Instead of binning it, I decided to repurpose it as a low-power webserver for my projects.
 
