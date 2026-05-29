@@ -54,7 +54,7 @@ Complete these steps on the client machine that you will be connecting from:
 2. Copy the keypair to the server: `ssh-copy-id root@<phone-ip> -p 8022`
 3. Test with `ssh root@<phone-ip> -p 8022`. You should be logged in without a password prompt
 
-Once that works, complete these steps in proot ubuntu on the server:
+Once that works, complete these steps in Termux (not proot ubuntu) on the server:
 1. Edit `~/.termux/boot/start.sh`
 2. Change `proot-distro login ubuntu -- dropbear -F -E -p 8022` to `proot-distro login ubuntu -- dropbear -F -E -s -p 8022`
 
